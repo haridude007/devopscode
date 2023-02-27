@@ -1,0 +1,7 @@
+---
+- name: Test ansible
+  hosts: all
+  tasks:
+    - name: "display message"
+      debug:
+        msg: "Welome to ansible"
